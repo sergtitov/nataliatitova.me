@@ -1,0 +1,14 @@
+{
+    "applications": {
+        "_default": {
+            "link": "nataliatitova.me"
+        }, 
+        "nataliatitova.me": {
+            "applicationId": "wB2IXjFuj0XvcgyLRCOYh2WxAOWLyw3Nge6YHHcL", 
+            "masterKey": "AjdtArV7M6TBqahQY7KMvcIn5JXbbqpIrWojt9WA"
+        }
+    }, 
+    "global": {
+        "parseVersion": "1.3.0"
+    }
+}

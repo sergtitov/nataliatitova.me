@@ -1,0 +1,26 @@
+{
+    "templates" :  "src/*.ejs",
+    "partials" :  "src/partials",
+    "blog" : {
+      "path": "blog",
+      "theme": "blog/themes/custom",
+      "theme_partial": "blog/themes/custom/layout/_partial",
+      "hexo_public": "blog/public",
+      "dest": "build/blog"
+    },
+    "assets" : "src/assets/**/*",
+    "src": "src",
+    "buildpath" : "build",
+    "buildpath_ru" : "build/ru",
+    "data" : {
+        "domain": "nataliatitova.me",
+        "title": "Natalia Titova",
+        "name": "Natalia Titova",
+        "email": "info@nataliatitova.com",
+        "skype": "nataliabobr",
+        "skype_chat":"skype:nataliabobr?chat",
+        "twitter_path": "https://twitter.com/NataliaTitova",
+        "twitter_handle": "@NataliaTitova",
+        "linkedin":"https://www.linkedin.com/pub/natalia-titova/6/190/653"
+    }
+}

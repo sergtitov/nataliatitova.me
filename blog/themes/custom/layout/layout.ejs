@@ -1,0 +1,26 @@
+<%- partial('_partial/header') %>
+
+<section id="blog" class="light-bg">
+    <div class="container inner-top-xs inner-bottom classic-blog">
+
+        <div class="row">
+
+            <div class="col-md-9 inner-right-sm">
+
+                <%- body %>
+
+            </div>
+            <!-- /.col -->
+
+            <%- partial('_partial/sidebar', null, {cache: !config.relative_link}) %>
+
+        </div>
+        <!-- /.row -->
+
+    </div>
+    <!-- /.container -->
+</section>
+
+<%- partial('_partial/footer', null, {cache: !config.relative_link}) %>
+
+<%- partial('_partial/footer-footer', null, {cache: !config.relative_link}) %>

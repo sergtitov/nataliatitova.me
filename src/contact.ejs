@@ -1,0 +1,131 @@
+<% include partials/header.ejs %>
+
+<main>
+<!-- ============================================================= SECTION – HERO ============================================================= -->
+
+<section id="hero" class="light-bg img-bg img-bg-softer"
+         style="background-image: url(assets/images/art/image-background04.jpg);">
+    <div class="container inner-xs">
+        <div class="row">
+            <div class="col-md-8 center-block text-center">
+                <header>
+                    <h1>Get in touch</h1>
+
+                    <p>Send me an email or use the form below. If email is not your thing, you can also reach me via Skype or Twitter.</p>
+                </header>
+            </div>
+            <!-- /.col -->
+        </div>
+        <!-- ./row -->
+    </div>
+    <!-- /.container -->
+</section>
+
+<!-- ============================================================= SECTION – HERO : END ============================================================= -->
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="row">
+
+                <div class="col-sm-6 outer-top-xs outer-bottom-xs inner-right-sm inner-left-md border-right">
+
+                    <h2>Leave a Message</h2>
+
+                    <form id="contactform" class="forms" action="contact.html" method="post">
+
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <input type="text" id="name" name="name" class="form-control" placeholder="Name (Required)">
+                            </div>
+                            <!-- /.col -->
+                            <div class="col-sm-6">
+                                <input type="email" id="email" name="email" class="form-control"
+                                       placeholder="Email (Required)">
+                            </div>
+                            <!-- /.col -->
+                        </div>
+                        <!-- /.row -->
+
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <input type="text" id="subject" name="subject" class="form-control" placeholder="Subject">
+                            </div>
+                            <!-- /.col -->
+                        </div>
+                        <!-- /.row -->
+
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <textarea id="message" name="message" class="form-control"
+                                          placeholder="Enter your message ..."></textarea>
+                            </div>
+                            <!-- /.col -->
+                        </div>
+                        <!-- /.row -->
+
+                        <button type="submit" class="btn btn-default btn-submit">Submit message</button>
+
+                    </form>
+
+                    <div id="response"></div>
+
+                </div>
+                <!-- ./col -->
+
+                <div class="col-sm-6 outer-top-xs inner-left-sm">
+
+                    <h2>Contacts</h2>
+
+                    <ul class="contacts">
+                        <li><a href="mailto:<%= config.email %>"><i class="icon-mail-1 contact"></i><%= config.email %></a></li>
+                        <li><a href="<%= config.skype_chat %>"><i class="icon-s-skype contact"></i><%= config.skype %></a></li>
+                        <li><a href="<%= config.twitter_path %>" target="_blank"><i class="icon-s-twitter contact"></i><%= config.twitter_handle %></a></li>
+                        <li><a href="<%= config.linkedin %>" target="_blank"><i class="icon-s-linkedin contact"></i>LinkedIn Profile</a></li>
+
+                    </ul>
+                    <!-- /.contacts -->
+
+                    <div class="social-network">
+                        <h2>Social</h2>
+                        <ul class="social">
+                            <li><a href="#"><i class="icon-s-facebook"></i></a></li>
+                            <li><a href="#"><i class="icon-s-gplus"></i></a></li>
+                            <li><a href="#"><i class="icon-s-twitter"></i></a></li>
+                            <li><a href="#"><i class="icon-s-pinterest"></i></a></li>
+                            <li><a href="#"><i class="icon-s-behance"></i></a></li>
+                            <li><a href="#"><i class="icon-s-dribbble"></i></a></li>
+                        </ul>
+                        <!-- /.social -->
+                    </div>
+                    <!-- /.social-network -->
+
+                </div>
+                <!-- /.col -->
+
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.col -->
+    </div>
+    <!-- /.row -->
+
+</div>
+
+
+<!-- ============================================================= SECTION – CONTACT FORM : END ============================================================= -->
+
+
+<!-- ============================================================= SECTION – MAP ============================================================= -->
+
+<section id="map" class="height-sm"></section>
+
+<!-- ============================================================= SECTION – MAP : END ============================================================= -->
+
+<script src="http://www.parsecdn.com/js/parse-1.3.0.min.js"></script>
+
+</main>
+
+<% include partials/footer.ejs %>
+<% include partials/footer-footer.ejs %>

@@ -1,0 +1,12 @@
+{
+  "HOME": "Главная",
+  "PORTFOLIO": "Портфолио",
+  "METHOD": "Метод",
+  "SERVICES": "Сервисы",
+  "PRICING": "Цены",
+  "FAQ": "Вопросы и ответы",
+  "BLOG": "Блог",
+  "CONTACT": "Контакты",
+  "locale": "ru",
+  "month_names": [ "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec" ]
+}

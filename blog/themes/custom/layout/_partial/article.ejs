@@ -1,0 +1,53 @@
+<% if (!index){ %>
+<div class="posts sidemeta">
+<% } %>
+
+<div class="post format-standard">
+
+    <%- partial('post/date') %>
+
+    <div class="post-content">
+
+        <% if (post.image){ %>
+        <%- partial('post/image') %>
+        <% } %>
+
+
+        <% if (post.link || post.title){ %>
+            <%- partial('post/title') %>
+        <% } %>
+
+        <ul class="meta">
+
+        </ul>
+
+        <ul class="meta">
+            <%- partial('post/category') %>
+            <li class="comments"><a href="#">14</a></li>
+            <li class="likes"><a href="#">30</a></li>
+        </ul>
+
+        <% if (post.excerpt && index){ %>
+        <%- post.excerpt %>
+        <% if (theme.excerpt_link){ %>
+            <a href="<%- url_for(post.path) %>#more" class="btn"><%= theme.excerpt_link %></a>
+        <% } %>
+        <% } else { %>
+        <%- post.content %>
+        <% } %>
+
+    </div>
+    <!-- /.post-content -->
+
+    <% if (!index){ %>
+    <%- partial('post/nav') %>
+    <% } %>
+
+</div>
+
+<% if (!index){ %>
+</div>
+<% } %>
+
+
+<!-- /.post -->

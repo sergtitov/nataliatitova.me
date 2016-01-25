@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <% if (this.page != undefined) {
+        var title = config.title;
+
+        title = page.title;
+
+        if (is_category()){
+            title = 'Category: ' + page.category;
+        } else if (is_tag()){
+            title = 'Tag: ' + page.tag;
+        }
+    }
+    %>
+    <title><% if (title){ %><%= title %> | <% } %><%= config.title %></title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <% if (this.theme && theme.rss){ %>
+    <link rel="alternative" href="<%- theme.rss %>" title="<%= config.title %>" type="application/atom+xml">
+    <% } %>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="print" href="/assets/css/bootstrap.min.css">
+
+    <!-- Customizable CSS -->
+    <link href="/assets/css/main.css" rel="stylesheet" data-skrollr-stylesheet>
+    <link href="/assets/css/green.css" rel="stylesheet" title="Color">
+    <link href="/assets/css/owl.carousel.css" rel="stylesheet">
+    <link href="/assets/css/owl.transitions.css" rel="stylesheet">
+    <link href="/assets/css/animate.min.css" rel="stylesheet">
+
+    <!-- Fonts -->
+    <link href="http://fonts.googleapis.com/css?family=Lato:400,900,300,700" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic,700italic" rel="stylesheet">
+
+    <!-- Icons/Glyphs -->
+    <link href="/assets/fonts/fontello.css" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/assets/images/favicon.ico">
+
+    <!-- HTML5 elements and media queries Support for IE8 : HTML5 shim and Respond.js -->
+    <!--[if lt IE 9]>
+    <script src="/assets/js/html5shiv.js"></script>
+    <script src="/assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Google Analytics -->
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-45007566-2', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+    <!-- /.Google Analytics -->
+</head>
+
+<body>
+
+<!-- ============================================================= HEADER ============================================================= -->
+
+<header>
+<div class="navbar">
+
+<div class="navbar-header">
+    <div class="container">
+
+        <ul class="info pull-left">
+            <li><a href="mailto:<%= config.email %>"><i class="icon-mail-1 contact"></i><%= config.email %></a></li>
+            <li><a href="<%= config.skype_chat %>"><i class="icon-s-skype contact"></i><%= config.skype %></a></li>
+            <li><a href="<%= config.twitter_path %>" target="_blank"><i class="icon-s-twitter contact"></i><%= config.twitter_handle %></a></li>
+        </ul>
+        <!-- /.info -->
+
+        <ul class="social pull-right">
+            <li><a href="#"><i class="icon-s-facebook"></i></a></li>
+            <li><a href="#"><i class="icon-s-gplus"></i></a></li>
+            <li><a href="#"><i class="icon-s-twitter"></i></a></li>
+            <li><a href="#"><i class="icon-s-pinterest"></i></a></li>
+            <li><a href="#"><i class="icon-s-behance"></i></a></li>
+            <li><a href="#"><i class="icon-s-dribbble"></i></a></li>
+        </ul>
+        <!-- /.social -->
+
+        <!-- ============================================================= LOGO MOBILE ============================================================= -->
+
+        <a class="navbar-brand" href="index.html"><img src="/assets/images/NT_logo.svg" class="logo" alt=""></a>
+
+
+        <!-- ============================================================= LOGO MOBILE : END ============================================================= -->
+
+        <a class="btn responsive-menu pull-right" data-toggle="collapse" data-target=".navbar-collapse"><i
+                    class='icon-menu-1'></i></a>
+
+    </div>
+    <!-- /.container -->
+</div>
+<!-- /.navbar-header -->
+
+<div class="yamm">
+<div class="navbar-collapse collapse">
+<div class="container">
+
+<!-- ============================================================= LOGO ============================================================= -->
+
+<a class="navbar-brand" href="/index.html"><img src="/assets/images/NT_logo.svg" class="logo" alt=""></a>
+
+<!-- ============================================================= LOGO : END ============================================================= -->
+
+
+<!-- ============================================================= MAIN NAVIGATION ============================================================= -->
+
+<ul class="nav navbar-nav">
+
+    <li>
+        <a href="/index.html"><%= config.HOME %></a>
+    </li>
+<!--
+    <li>
+        <a href="portfolio.html"><%= config.PORTFOLIO %></a>
+    </li>
+
+    <li>
+        <a href="services.html"><%= config.SERVICES %></a>
+    </li>
+-->
+    <li>
+        <a href="/method.html"><%= config.METHOD %></a>
+    </li>
+
+    <li>
+        <a href="/pricing.html"><%= config.PRICING %></a>
+    </li>
+
+    <li>
+        <a href="/faq.html"><%= config.FAQ %></a>
+    </li>
+
+    <li>
+        <a href="/blog/"><%= config.BLOG %></a>
+    </li>
+
+    <li>
+        <a href="/contact.html"><%= config.CONTACT %></a>
+    </li>
+
+
+</ul>
+<!-- /.nav -->
+
+<!-- ============================================================= MAIN NAVIGATION : END ============================================================= -->
+
+</div>
+<!-- /.container -->
+</div>
+<!-- /.navbar-collapse -->
+</div>
+<!-- /.yamm -->
+</div>
+<!-- /.navbar -->
+</header>
+
+<!-- ============================================================= HEADER : END ============================================================= -->

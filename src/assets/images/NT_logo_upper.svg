@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="640"
+   height="480"
+   id="svg3041"
+   version="1.1"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="NT_logo.svg">
+  <metadata
+     id="metadata3057">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs3055" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1228"
+     inkscape:window-height="756"
+     id="namedview3053"
+     showgrid="false"
+     inkscape:zoom="1.1458333"
+     inkscape:cx="320"
+     inkscape:cy="290.54645"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg3041" />
+  <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+  <g
+     id="g3043">
+    <title
+       id="title3045">Layer 1</title>
+    <text
+       style="cursor: move;"
+       stroke="#000000"
+       transform="matrix(6.943423593515645,0,0,7.588801558922035,-509.4842999982503,-722.3769770494008) "
+       font-weight="normal"
+       font-style="normal"
+       xml:space="preserve"
+       text-anchor="middle"
+       font-family="Serif"
+       font-size="24"
+       id="svg_1"
+       y="118.84191"
+       x="93.03197"
+       stroke-width="0"
+       fill="#000000">N</text>
+    <text
+       style="cursor: move;"
+       id="svg_2"
+       stroke="#000000"
+       transform="matrix(6.943423593515645,0,0,7.588801558922035,-509.4842999982503,-722.3769770494008) "
+       font-weight="normal"
+       font-style="normal"
+       xml:space="preserve"
+       text-anchor="middle"
+       font-family="Cursive"
+       font-size="24"
+       y="134.64961"
+       x="119.39204"
+       stroke-width="0"
+       fill="#000000">t</text>
+    <text
+       id="svg_3"
+       stroke="#000000"
+       transform="matrix(6.943423593515645,0,0,7.588801558922035,-509.4842999982503,-722.3769770494008) "
+       font-weight="normal"
+       font-style="normal"
+       xml:space="preserve"
+       text-anchor="middle"
+       font-family="Cursive"
+       font-size="24"
+       y="137.41685"
+       x="118.09585"
+       stroke-width="0"
+       fill="#000000">n</text>
+    <text
+       id="svg_4"
+       stroke="#000000"
+       transform="matrix(6.943423593515645,0,0,7.588801558922035,-509.4842999982503,-722.3769770494008) "
+       font-weight="normal"
+       font-style="normal"
+       xml:space="preserve"
+       text-anchor="middle"
+       font-family="Cursive"
+       font-size="24"
+       y="121.99939"
+       x="140.99521"
+       stroke-width="0"
+       fill="#000000">T</text>
+    <text
+       id="svg_5"
+       stroke="#000000"
+       transform="matrix(6.943423593515645,0,0,7.588801558922035,-509.4842999982503,-722.3769770494008) "
+       font-weight="normal"
+       font-style="normal"
+       xml:space="preserve"
+       text-anchor="middle"
+       font-family="Cursive"
+       font-size="24"
+       y="126.087"
+       x="146.75389"
+       stroke-width="0"
+       fill="#000000">N</text>
+    <text
+       id="svg_6"
+       stroke="#000000"
+       transform="matrix(6.943423593515645,0,0,7.588801558922035,-509.4842999982503,-722.3769770494008) "
+       font-weight="normal"
+       font-style="normal"
+       xml:space="preserve"
+       text-anchor="middle"
+       font-family="Serif"
+       font-size="24"
+       y="118.78986"
+       x="98.941"
+       stroke-width="0"
+       fill="#000000">T</text>
+  </g>
+</svg>

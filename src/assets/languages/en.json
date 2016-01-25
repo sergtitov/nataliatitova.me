@@ -1,0 +1,12 @@
+{
+  "HOME": "Home",
+  "PORTFOLIO": "Portfolio",
+  "METHOD": "Method",
+  "SERVICES": "Services",
+  "PRICING": "Pricing",
+  "FAQ": "FAQ",
+  "BLOG": "Blog",
+  "CONTACT": "Contact",
+  "locale": "en-us",
+  "month_names": [ "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec" ]
+}
